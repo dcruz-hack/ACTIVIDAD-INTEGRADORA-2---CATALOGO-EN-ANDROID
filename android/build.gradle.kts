@@ -23,7 +23,7 @@ subprojects {
 /*
  * Keep Android plugin modules (for example image_cropper) aligned with
  * the app compile SDK. Some AndroidX dependencies require API 34 or newer.
- */
+ 
 subprojects {
     afterEvaluate {
         val androidExtension = extensions.findByName("android")
@@ -35,7 +35,7 @@ subprojects {
             compileSdkSetter?.invoke(androidExtension, 35)
         }
     }
-}
+}*/
 
 tasks.register<Delete>("clean") {
     delete(rootProject.layout.buildDirectory)
