@@ -40,7 +40,7 @@ Los servicios se encuentran en `lib/services/` y no dependen de widgets. `AppPro
 ## Instalación y ejecución
 
 
-git clone <https://github.com/dcruz-hack/ZM-TECHNOLOGY-V1.git>
+git clone <https://github.com/dcruz-hack/ACTIVIDAD-INTEGRADORA-2---CATALOGO-EN-ANDROID.git>
 cd catalogo_flutter
 flutter pub get
 flutter run
