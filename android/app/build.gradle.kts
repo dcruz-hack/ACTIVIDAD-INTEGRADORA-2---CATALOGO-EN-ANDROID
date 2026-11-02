@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.zmtechnology.v1"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
