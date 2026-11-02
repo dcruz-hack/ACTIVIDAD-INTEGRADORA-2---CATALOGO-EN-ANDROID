@@ -2,7 +2,7 @@
 
 Aplicación móvil Flutter que moderniza el catálogo de productos de ZM TECHNOLOGY e incorpora servicios nativos de conectividad, cámara/galería y notificaciones locales.
 
-> **Continuidad del proyecto:** esta entrega parte de la aplicación `catalogo_flutter` desarrollada en la Actividad Integradora 1. Se conserva el catálogo y la navegación de productos, y se realiza la reingeniería solicitada en la Actividad Integradora 2.
+> **Continuidad del proyecto:** esta entrega parte de la aplicación `catalogo_flutter` desarrollada en la Actividad Integradora 1. Se conserva el catálogo y la navegación de productos, y se realiza la reingeniería en la Actividad Integradora 2.
 
 ## Tecnologías
 
@@ -82,30 +82,6 @@ lib/
 ├── theme/app_theme.dart
 └── widgets/
     └── offline_banner.dart
-
-
-## Control de versiones sugerido para la auditoría
-
-Los commits deben reflejar cambios reales y ser realizados por el equipo/estudiante. No se deben fabricar fechas, autores ni evidencias. Flujo recomendado:
-
-
-# Si se parte de una carpeta sin Git:
-git init -b main
-git add . && git commit -m "chore: importar proyecto base de actividad integradora 1"
-
-# Rama de integración y rama de funcionalidad:
-git switch -c develop
-git add . && git commit -m "feat: modernizar identidad visual de la aplicación"
-git switch -c feature/native-services
-git add . && git commit -m "feat: integrar servicios nativos desacoplados"
-git add . && git commit -m "feat: agregar conectividad reactiva y banner offline"
-git add . && git commit -m "feat: implementar cámara galería y permisos"
-git add . && git commit -m "feat: configurar notificaciones locales"
-git switch develop
-git merge feature/native-services
-git switch main
-git merge develop
-
 
 ## Autor
 
